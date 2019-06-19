@@ -1,0 +1,13 @@
+[{
+  "modid": "enchantingwiththaumcraft",
+  "name": "Enchanting With Thaumcraft",
+  "description": "Allows normal enchantments to be created through Thaumcraft infusion",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "logoFile": "assets/examplemod/textures/logo.png",
+  "url": "",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["Frostnox"],
+  "credits": "Azanor :)",
+  "dependencies": ["thaumcraft"]
+}]
