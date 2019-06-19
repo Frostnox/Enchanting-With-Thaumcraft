@@ -262,6 +262,7 @@ public class Recipes {
 				new ItemStack(Items.BOOK),
 				new Object[] {
 						new ItemStack(ItemsTC.amber),
+						new ItemStack(ItemsTC.plate, 1, 2),
 						new ItemStack(ItemsTC.plate, 1, 2)
 				}
 				));
@@ -273,6 +274,7 @@ public class Recipes {
 				new ItemStack(Items.BOOK),
 				new Object[] {
 						new ItemStack(ItemsTC.amber),
+						new ItemStack(ItemsTC.plate, 1, 2),
 						new ItemStack(ItemsTC.plate, 1, 2),
 						new ItemStack(ItemsTC.plate, 1, 2)
 				}
