@@ -146,7 +146,7 @@
 				{
 					"text": "enchantingwiththaumcraft.research.adv_weapon_ench.text.stage.1",
 					"required_knowledge": ["THEORY;INFUSION;1"],
-					"required_item": ["minecraft:gold_ingot;1;0", "thaumcraft:alumentum;1;0"]
+					"required_item": ["minecraft:gold_ingot;1;0", "thaumcraft:alumentum;1;0", "minecraft:tnt;1;0"]
 				},
 				{
 					"text": "enchantingwiththaumcraft.research.adv_weapon_ench.text.stage.2",
@@ -155,7 +155,10 @@
 						"enchantingwiththaumcraft:fire_aspect_2",
 						"enchantingwiththaumcraft:looting_1",
 						"enchantingwiththaumcraft:looting_2",
-						"enchantingwiththaumcraft:looting_3"
+						"enchantingwiththaumcraft:looting_3",
+						"enchantingwiththaumcraft:sweeping_edge_1",
+						"enchantingwiththaumcraft:sweeping_edge_2",
+						"enchantingwiththaumcraft:sweeping_edge_3"
 					]
 				}
 			],
