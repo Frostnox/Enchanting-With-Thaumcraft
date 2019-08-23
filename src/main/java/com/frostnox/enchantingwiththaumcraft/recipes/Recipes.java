@@ -684,6 +684,44 @@ public class Recipes {
 						new ItemStack(Blocks.GOLD_BLOCK)
 				}
 				));
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation("enchantingwiththaumcraft", "sweeping_edge_1"),
+				new InfusionRecipe("ADV_WEAPON_ENCH",
+				Book.EnchantBook(Enchantments.SWEEPING, 1),
+				2,
+				new AspectList().add(Aspect.AIR, 10).add(Aspect.ENTROPY, 10),
+				new ItemStack(Items.BOOK),
+				new Object[] {
+						new ItemStack(ItemsTC.amber),
+						new ItemStack(Items.GUNPOWDER),
+						new ItemStack(Items.GUNPOWDER)
+				}
+				));
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation("enchantingwiththaumcraft", "sweeping_edge_2"),
+				new InfusionRecipe("ADV_WEAPON_ENCH",
+				Book.EnchantBook(Enchantments.SWEEPING, 2),
+				3,
+				new AspectList().add(Aspect.AIR, 15).add(Aspect.ENTROPY, 15),
+				new ItemStack(Items.BOOK),
+				new Object[] {
+						new ItemStack(ItemsTC.amber),
+						new ItemStack(Items.GUNPOWDER),
+						new ItemStack(Items.GUNPOWDER),
+						new ItemStack(Items.GUNPOWDER)
+				}
+				));
+		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation("enchantingwiththaumcraft", "sweeping_edge_3"),
+				new InfusionRecipe("ADV_WEAPON_ENCH",
+				Book.EnchantBook(Enchantments.SWEEPING, 3),
+				4,
+				new AspectList().add(Aspect.AIR, 20).add(Aspect.ENTROPY, 20),
+				new ItemStack(Items.BOOK),
+				new Object[] {
+						new ItemStack(ItemsTC.amber),
+						new ItemStack(Items.GUNPOWDER),
+						new ItemStack(Blocks.TNT),
+						new ItemStack(Items.GUNPOWDER)
+				}
+				));
 		ThaumcraftApi.addInfusionCraftingRecipe(new ResourceLocation("enchantingwiththaumcraft", "power_1"),
 				new InfusionRecipe("BOW_ENCH",
 				Book.EnchantBook(Enchantments.POWER, 1),
