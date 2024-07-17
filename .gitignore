@@ -24,3 +24,8 @@ hs_err_pid*
 
 # Gradle
 /.gradle/
+
+.idea/
+build/
+run/
+src/generated/
